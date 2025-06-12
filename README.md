@@ -13,14 +13,6 @@
 [![tests status](https://github.com/pixeltable/pixeltable/actions/workflows/nightly.yml/badge.svg)](https://github.com/pixeltable/pixeltable/actions/workflows/nightly.yml)
 [![PyPI Package](https://img.shields.io/pypi/v/pixeltable?color=4D148C)](https://pypi.org/project/pixeltable/)
 [![My Discord (1306431018890166272)](https://img.shields.io/badge/💬-Discord-%235865F2.svg)](https://discord.gg/QPyqFYx2UN)
-
-[**Installation**](https://docs.pixeltable.com/docs/overview/installation) |
-[**Quick Start**](https://docs.pixeltable.com/docs/overview/quick-start) |
-[**Documentation**](https://docs.pixeltable.com/) |
-[**API Reference**](https://pixeltable.github.io/pixeltable/) |
-[**Examples**](https://docs.pixeltable.com/docs/examples/use-cases) |
-[**Discord Community**](https://discord.gg/QPyqFYx2UN)
-
 </div>
 
 ---
@@ -38,14 +30,6 @@ Building robust AI applications, especially [multimodal](https://docs.pixeltable
 *   Separate systems for parallelization, caching, versioning, and lineage tracking.
 
 This complex "data plumbing" slows down development, increases costs, and makes applications brittle and hard to reproduce.
-
-## 💾 Installation
-
-```python
-pip install pixeltable
-```
-
-**Pixeltable is a database.** It stores metadata and computed results persistently, typically in a `.pixeltable` directory in your workspace. See [configuration](https://docs.pixeltable.com/docs/overview/configuration) options for your setup.
 
 ## ✨ What is Pixeltable?
 
