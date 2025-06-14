@@ -13,18 +13,9 @@
 [![tests status](https://github.com/pixeltable/pixeltable/actions/workflows/nightly.yml/badge.svg)](https://github.com/pixeltable/pixeltable/actions/workflows/nightly.yml)
 [![PyPI Package](https://img.shields.io/pypi/v/pixeltable?color=4D148C)](https://pypi.org/project/pixeltable/)
 [![My Discord (1306431018890166272)](https://img.shields.io/badge/💬-Discord-%235865F2.svg)](https://discord.gg/QPyqFYx2UN)
-
-[**Installation**](https://docs.pixeltable.com/docs/overview/installation) |
-[**Quick Start**](https://docs.pixeltable.com/docs/overview/quick-start) |
-[**Documentation**](https://docs.pixeltable.com/) |
-[**API Reference**](https://pixeltable.github.io/pixeltable/) |
-[**Examples**](https://docs.pixeltable.com/docs/examples/use-cases) |
-[**Discord Community**](https://discord.gg/QPyqFYx2UN)
-
 </div>
 
 ---
-
 Pixeltable is the only Python framework that provides incremental storage, transformation, indexing, and orchestration of your multimodal data.
 
 ## 😩 Maintaining Production-Ready Multimodal AI Apps is Still Too Hard
@@ -40,7 +31,6 @@ Building robust AI applications, especially [multimodal](https://docs.pixeltable
 This complex "data plumbing" slows down development, increases costs, and makes applications brittle and hard to reproduce.
 
 ## 💾 Installation
-
 ```python
 pip install pixeltable
 ```
@@ -52,7 +42,7 @@ pip install pixeltable
 With Pixeltable, you define your *entire* data processing and AI workflow declaratively using **[computed columns](https://docs.pixeltable.com/docs/datastore/computed-columns)** on **[tables](https://docs.pixeltable.com/docs/datastore/tables-and-operations)**. Pixeltable's engine then automatically handles:
 
 *   **Data Ingestion & Storage:** References [files](https://docs.pixeltable.com/docs/datastore/bringing-data) (images, videos, audio, docs) in place, handles structured data.
-*   **Transformation & Processing:** Applies *any* Python function ([UDFs](https://docs.pixeltable.com/docs/datastore/custom-functions)) or built-in operations ([chunking, frame extraction](https://docs.pixeltable.com/docs/datastore/iterators)) automatically.
+*   **Transformation & Processing:** Applies *any* Python function ([UDFs](https://docs.pixeltable.com/docs/datastore/custom-functions))
 *   **AI Model Integration:** Runs inference ([embeddings](https://docs.pixeltable.com/docs/datastore/embedding-index), [object detection](https://docs.pixeltable.com/docs/examples/vision/yolox), [LLMs](https://docs.pixeltable.com/docs/integrations/frameworks#cloud-llm-providers)) as part of the data pipeline.
 *   **Indexing & Retrieval:** Creates and manages vector indexes for fast [semantic search](https://docs.pixeltable.com/docs/datastore/embedding-index#phase-3%3A-query) alongside traditional filtering.
 *   **Incremental Computation:** Only [recomputes](https://docs.pixeltable.com/docs/overview/quick-start) what's necessary when data or code changes, saving time and cost.
