@@ -34,13 +34,14 @@ This complex "data plumbing" slows down development, increases costs, and makes 
 ## ✨ What is Pixeltable?
 
 With Pixeltable, you define your *entire* data processing and AI workflow declaratively using **[computed columns](https://docs.pixeltable.com/docs/datastore/computed-columns)** on **[tables](https://docs.pixeltable.com/docs/datastore/tables-and-operations)**. Pixeltable's engine then automatically handles:
+Pixeltable lets you build AI and data workflows using computed table columns. It handles:
 
-*   **Data Ingestion & Storage:** References [files](https://docs.pixeltable.com/docs/datastore/bringing-data) (images, videos, audio, docs) in place, handles structured data.
-*   **Transformation & Processing:** Applies *any* Python function ([UDFs](https://docs.pixeltable.com/docs/datastore/custom-functions)) or built-in operations ([chunking, frame extraction](https://docs.pixeltable.com/docs/datastore/iterators)) automatically.
-*   **AI Model Integration:** Runs inference ([embeddings](https://docs.pixeltable.com/docs/datastore/embedding-index), [object detection](https://docs.pixeltable.com/docs/examples/vision/yolox), [LLMs](https://docs.pixeltable.com/docs/integrations/frameworks#cloud-llm-providers)) as part of the data pipeline.
-*   **Indexing & Retrieval:** Creates and manages vector indexes for fast [semantic search](https://docs.pixeltable.com/docs/datastore/embedding-index#phase-3%3A-query) alongside traditional filtering.
-*   **Incremental Computation:** Only [recomputes](https://docs.pixeltable.com/docs/overview/quick-start) what's necessary when data or code changes, saving time and cost.
-*   **Versioning & Lineage:** Automatically tracks data and schema changes for reproducibility.
+- **Ingestion**: Links to files and structured data.
+- **Processing**: Applies Python functions and built-ins.
+- **Model Inference**: Runs embeddings, object detection, LLMs.
+- **Search**: Builds vector indexes with traditional filters.
+- **Efficiency**: Recomputes only when needed.
+- **Tracking**: Auto-versioning and lineage for reproducibility.
 
 **Focus on your application logic, not the infrastructure.**
 
