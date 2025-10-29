@@ -1,8 +1,12 @@
+<div align="center">
+
 <picture class="github-only">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/e9bf82b2-cace-4bd8-9523-b65495eb8131">
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c5ab123e-806c-49bf-93e7-151353719b16">
   <img alt="Pixeltable Logo" src="https://github.com/user-attachments/assets/e9bf82b2-cace-4bd8-9523-b65495eb8131" width="40%">
 </picture>
+
+</div>
 
 <div>
 <br>
@@ -21,11 +25,15 @@ The only open source Python library providing declarative data infrastructure fo
 
 </div>
 
+<div align="center">
+
 [**Quick Start**](https://docs.pixeltable.com/overview/quick-start) |
 [**Documentation**](https://docs.pixeltable.com/) |
 [**API Reference**](https://pixeltable.github.io/pixeltable/) |
 [**Sample Apps**](https://github.com/pixeltable/pixeltable/tree/main/docs/sample-apps) |
 [**Discord Community**](https://discord.gg/QPyqFYx2UN)
+
+</div>
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
