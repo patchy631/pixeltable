@@ -24,7 +24,7 @@ The only open source Python library providing declarative data infrastructure fo
 [**Discord Community**](https://discord.gg/QPyqFYx2UN)
 
 ---
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## Installation
 
 ```python
