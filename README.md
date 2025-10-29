@@ -12,7 +12,9 @@
 <br>
 </div>
 
+<p align="center">
 The only open source Python library providing declarative data infrastructure for building multimodal AI applications, enabling incremental storage, transformation, indexing, retrieval, and orchestration of data.
+</p>
 
 <div align="center">
 
